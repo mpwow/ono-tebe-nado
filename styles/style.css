@@ -65,7 +65,6 @@
 
 .address a {
   letter-spacing: 0.18px;
-  text-decoration: none;
   text-decoration: underline 1px;
   text-underline-offset: 3px;
 }
@@ -328,17 +327,20 @@
   text-align: center;
 }
 
-.footer__links-list {
+.footer__menu-list {
   font-size: 18px;
   letter-spacing: 0.2px;
-  text-decoration: none;
   list-style: none;
 }
 
-.footer__link {
-  border-bottom: 1px black solid;
+.footer__menu-link {
   text-decoration: none;
+  border-bottom: 1px black solid;
   white-space: nowrap;
+}
+
+.footer__menu-link_active {
+  border-bottom: none;
 }
 
 .footer__social-list {
@@ -346,7 +348,6 @@
   justify-content: space-between;
   align-content: center;
   width: 240px;
-
   list-style: none;
 }
 
